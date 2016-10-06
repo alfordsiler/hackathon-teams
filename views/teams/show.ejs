@@ -5,4 +5,7 @@
 	<p>
 	  <%= team.members %>
 	</p>
+  <!-- add in the edit and delete buttons -->
+    <a href='/teams/edit/<%= team.name %>' class='btn btn-default'>EDIT</a>
+    <a href='/teams/delete/<%= team.name %>' class='btn btn-danger delete-link'>DELETE</a>
 </div>
